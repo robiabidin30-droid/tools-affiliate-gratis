@@ -80,3 +80,7 @@ if st.button("🔊 Generate Audio"):
 # --- CREDIT ---
 st.markdown("---")
 st.caption("Dibuat dengan Streamlit, Groq, & Edge-TTS. 100% Gratis.")
+st.header("3. Generate Visual (Foto & Video)")
+st.write("Gunakan tools gratis ini untuk visual:")
+st.link_button("Ganti Baju Model (Virtual Try-On)", "https://huggingface.co/spaces/yisol/IDM-VTON")
+st.link_button("Hapus Background Produk", "https://www.remove.bg/")

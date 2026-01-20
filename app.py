@@ -106,7 +106,3 @@ if 'generated_script' in st.session_state:
                 st.error(f"Gagal membuat suara: {e}")
         else:
             st.warning("Belum ada script untuk diubah menjadi suara.")
-st.header("3. Generate Visual (Foto & Video)")
-st.write("Gunakan tools gratis ini untuk visual:")
-st.link_button("Ganti Baju Model (Virtual Try-On)", "https://huggingface.co/spaces/yisol/IDM-VTON")
-st.link_button("Hapus Background Produk", "https://www.remove.bg/")
